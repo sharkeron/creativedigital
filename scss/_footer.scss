@@ -1,0 +1,22 @@
+footer{
+	background : #9F9ACF;
+	padding : 75px 0;
+	
+	.copyright{
+		color : #fff;
+		font-size : 1.8rem;
+		
+		.bold{
+			font-weight : 700;
+		}
+	}
+	
+	.socials{
+		display : flex;
+		justify-content : space-around;
+		
+		div:hover{
+			animation: rotateIn .5s;
+		}
+	}
+}
