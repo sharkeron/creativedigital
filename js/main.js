@@ -59,19 +59,19 @@ function initMap() {
 
 			$('.contact form').find('.error').removeClass('error');
 
-			if (inputName.val().length == 0) {
+			if (inputName.val().trim().length == 0) {
 
 				inputName.addClass('error');
 
-			} else if (inputEmail.val().length == 0) {
+			} else if (inputEmail.val().trim().length == 0) {
 
 				inputEmail.addClass('error');
 
-			} else if (inputMsg.val().length == 0) {
+			} else if (inputMsg.val().trim().length == 0) {
 
 				inputMsg.addClass('error');
 
-			} else if (inputName.val().length !== 0 && inputEmail.val().length !== 0 && inputMsg.val().length !== 0) {
+			} else if (inputName.val().trim().length !== 0 && inputEmail.val().trim().length !== 0 && inputMsg.val().trim().length !== 0) {
 
 				$('.contact form input').removeClass('error');
 
